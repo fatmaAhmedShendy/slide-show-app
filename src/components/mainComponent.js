@@ -14,7 +14,7 @@ class mainComponent extends Component {
 
     }
     onHandleNext = (currents) =>  {
-        {currents < 6 ?
+        {currents < 5 ?
             this.setState({
                 current: currents + 1
             })
@@ -27,7 +27,7 @@ class mainComponent extends Component {
         }
     }
     onHandlePrev = (currents) =>  {
-        {currents > 0 ?
+        {currents > 1 ?
             this.setState({
                 current: currents - 1
             })

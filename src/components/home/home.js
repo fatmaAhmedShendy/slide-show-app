@@ -55,7 +55,7 @@ const home = props => {
                             }
                             </div >
                             <div className='col'>
-                                {current > 5 ? <button type='button' className='button button-next button-disable' 
+                                {current == 5 ? <button type='button' className='button button-next button-disable' 
                                 onClick={()=>props.onClickNext(current)}
                                 >Next</button> : <button type='button' className='button button-border button-next-prev button-next' 
                                 onClick={()=>props.onClickNext(current)}
